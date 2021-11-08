@@ -1,23 +1,31 @@
- html {
-   font-size: 62.5%;
- }
+html {
+  font-size: 62.5%;
+}
 
- body {
-   font-size: 1.6rem;
- }
+body {
+  font-size: 1.6rem;
+}
 
- /* css for mobile */
- 
+/* css for mobile */
+
+[data-tab-content] {
+  display: none;
+}
+
+[data-active="true"] {
+  display: block;
+}
 
 
 
+/* css for tablet and above */
+@media screen and (min-width: 768px) {
+h1 {
+  font-size: 3rem;
+}
 
-
-
-
- 
- /* css for tablet and above */
- @media screen and (min-width: 768px) {
-  h1 {
-    font-size: 3rem;
-  }
+body {
+  font-size: 1.6rem;
+  width: 80vw;
+}
+}
