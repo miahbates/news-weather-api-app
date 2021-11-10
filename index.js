@@ -71,7 +71,7 @@ const weatherOutput = document.querySelector('#output')
 form.addEventListener('submit', (e) => {
   e.preventDefault()
   console.log(weatherInput.value)
-  let url = `http://api.openweathermap.org/data/2.5/weather?q=${weatherInput.value}&units=metric&appid=${weatherKey}`
+  let url = `https://api.openweathermap.org/data/2.5/weather?q=${weatherInput.value}&units=metric&appid=${weatherKey}`
   fetch(url)
     .then((response) => {
       if (!response.ok) {
@@ -83,7 +83,7 @@ form.addEventListener('submit', (e) => {
       console.log(data)
       let icon = data.weather[0].icon
       weatherOutput.innerHTML = `
-            <img src="http://openweathermap.org/img/wn/${icon}@4x.png" alt="">
+            <img src="https://openweathermap.org/img/wn/${icon}@4x.png" alt="">
             <h2>${data.weather[0].description}</h2>
             <p>Feels like ${data.main.feels_like}&deg;C</p>
             <p>High:${data.main.temp_max}&deg;C</p>
