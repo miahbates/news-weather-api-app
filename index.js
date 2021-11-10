@@ -1,5 +1,3 @@
-const reqOptions = { 'mode': 'cors', headers: { 'Access-Control-Allow-Origin': '*' } };
-
 const tabs = document.querySelectorAll('[data-tab-target]')
 
 const tabContents = document.querySelectorAll('[data-tab-content]');
@@ -27,8 +25,10 @@ buttonCountry.forEach((country) => {
   country.addEventListener("click", (event) => {
     selectedButton = country.dataset.tabTarget;
 
+    let encoded = encodeURIComponent(`http://newsapi.org/v2/top-headlines?country=${selectedButton}&apiKey=c08a1eeb4cd64f16814aa16e610ace2b`)
+
     // console.log(selectedButton);
-    fetch(`http://newsapi.org/v2/top-headlines?country=${selectedButton}&apiKey=c08a1eeb4cd64f16814aa16e610ace2b`)
+    fetch(`https://cors-proxy.oliverjam.workers.dev?url=${encoded}`)
       .then((response) => {
         if (response.ok !== true) {
           throw new Error(response.status)
@@ -38,7 +38,7 @@ buttonCountry.forEach((country) => {
       .then(data => {
         console.log(data, 'yaya')
         document.getElementById(`header${selectedButton}`).innerHTML = `Top Stories for the ${selectedButton.toUpperCase()}`;
-    })
+
           // Loop over the articles
           for (let i = 0; i < data.articles.length; i++) {
           // saved looped article in a variable
@@ -51,19 +51,17 @@ buttonCountry.forEach((country) => {
           const sectionCountry = document.getElementById(`${selectedButton}`);
           // add headline name to the section with allocated us or uk button clicked
           sectionCountry.appendChild(headlineName);
-
-          // add headline image to retropective subheading
-          // create img elemet each time the loop runs and set src attribute to urlToImage 
-          // let headlineImg = document.createElement("img").setAttribute("src", article.urlToImage);
-          // sectionCountry.appendChild(headlineImg);
-          // append to relevant section 
         } 
       })
       .catch((error) => console.log(error, "nay"))
   })
-
 })
 
+ // add headline image to retropective subheading
+          // create img elemet each time the loop runs and set src attribute to urlToImage 
+          // let headlineImg = document.createElement("img").setAttribute("src", article.urlToImage);
+          // sectionCountry.appendChild(headlineImg);
+          // append to relevant section 
 
 const weatherKey = '2f3d3d3d32f17bca72f64fb285f2214a';
 const form = document.querySelector('form')
@@ -100,4 +98,4 @@ form.addEventListener('submit', (e) => {
         weatherOutput.innerHTML = `<p>Place not found</p>`
       }
     })
-
+  })
