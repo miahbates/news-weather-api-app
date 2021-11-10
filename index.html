@@ -17,11 +17,27 @@
 
 <!-- nav bar -->
 <header>
-  <nav> </nav>
+  <h1>FAC News</h1>
+  <nav>
+    <button data-tab-target="gb" class="button-country">UK</button>
+    <button data-tab-target="us" class="button-country">US</button>
+    <button data-tab-target="weather">Weather</button>
+  </nav>
 </header>
 
 <!-- content of top stories dependend on tab selected -->
+<main>
+  <section id="uk" data-tab-content>
+    <p>News stories about uk</p>
+  </section>
 
+  <section id="us" data-tab-content>
+    <p>News stories about us</p>
+  </section>
 
+  <section id="weather" data-tab-content>
+    <p>News stories about weather</p>
+  </section> 
+</main>
 </body>
 </html>
