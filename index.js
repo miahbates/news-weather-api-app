@@ -39,8 +39,8 @@ buttonCountry.forEach((country) => {
         console.log(data, 'yaya')
         document.getElementById(`header${selectedButton}`).innerHTML = `Top Stories for the ${selectedButton.toUpperCase()}`;
 
-          // Loop over the articles
-          for (let i = 0; i < data.articles.length; i++) {
+        // Loop over the articles
+        for (let i = 0; i < data.articles.length; i++) {
           // saved looped article in a variable
           const article = data.articles[i];
           // create new h3 each time to add the headline into
@@ -51,17 +51,17 @@ buttonCountry.forEach((country) => {
           const sectionCountry = document.getElementById(`${selectedButton}`);
           // add headline name to the section with allocated us or uk button clicked
           sectionCountry.appendChild(headlineName);
-        } 
+        }
       })
       .catch((error) => console.log(error, "nay"))
   })
 })
 
- // add headline image to retropective subheading
-          // create img elemet each time the loop runs and set src attribute to urlToImage 
-          // let headlineImg = document.createElement("img").setAttribute("src", article.urlToImage);
-          // sectionCountry.appendChild(headlineImg);
-          // append to relevant section 
+// add headline image to retropective subheading
+// create img elemet each time the loop runs and set src attribute to urlToImage 
+// let headlineImg = document.createElement("img").setAttribute("src", article.urlToImage);
+// sectionCountry.appendChild(headlineImg);
+// append to relevant section 
 
 const weatherKey = '2f3d3d3d32f17bca72f64fb285f2214a';
 const form = document.querySelector('form')
@@ -83,6 +83,7 @@ form.addEventListener('submit', (e) => {
       console.log(data)
       let icon = data.weather[0].icon
       weatherOutput.innerHTML = `
+      <section>
             <img src="https://openweathermap.org/img/wn/${icon}@4x.png" alt="">
             <h2>${data.weather[0].description}</h2>
             <p>Feels like ${data.main.feels_like}&deg;C</p>
@@ -90,6 +91,7 @@ form.addEventListener('submit', (e) => {
             <p>Low:${data.main.temp_min}&deg;C</p>
             <p>Humdity:${data.main.humidity}%</p>
             <p>Wind:${data.wind.speed}mph</p>
+            </section>
             `
     })
     .catch((error) => {
@@ -98,4 +100,8 @@ form.addEventListener('submit', (e) => {
         weatherOutput.innerHTML = `<p>Place not found</p>`
       }
     })
-  })
+})
+
+let url2 = `https://api.openweathermap.org/data/2.5/forecast?q=london&appid=${weatherKey}`
+fetch(url2)
+  .then((response) => console.log(response.json()))
