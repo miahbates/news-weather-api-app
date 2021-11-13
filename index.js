@@ -25,10 +25,10 @@ buttonCountry.forEach((country) => {
   country.addEventListener("click", (event) => {
     selectedButton = country.dataset.tabTarget;
 
-    let encoded = encodeURIComponent(`http://newsapi.org/v2/top-headlines?country=${selectedButton}&apiKey=c08a1eeb4cd64f16814aa16e610ace2b`)
-
+    // let encoded = encodeURIComponent(`https://newsapi.org/v2/top-headlines?country=${selectedButton}&apiKey=c08a1eeb4cd64f16814aa16e610ace2b`)
     // console.log(selectedButton);
-    fetch(`https://cors-proxy.oliverjam.workers.dev?url=${encoded}`)
+    // fetch(`https://cors-proxy.oliverjam.workers.dev?url=${encoded}`)
+    fetch(`api/${selectedButton}.json`)
       .then((response) => {
         if (response.ok !== true) {
           throw new Error(response.status)

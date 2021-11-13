@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+      {
+          "source": {
+              "id": null,
+              "name": "ESPN"
+          },
+          "author": null,
+          "title": "Los Angeles Rams receiver Robert Woods suffers torn ACL, sources say - ESPN",
+          "description": "Tests conducted after Friday's practice revealed that Rams receiver Robert Woods suffered a torn ACL and is out for the remainder of the season, sources told ESPN. He had 45 catches for 556 yards and 4 TDs this season.",
+          "url": "https://www.espn.com/nfl/story/_/id/32620819/los-angeles-rams-receiver-robert-woods-suffers-torn-acl-sources-say",
+          "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2019%2F1126%2Fr633252_1296x729_16%2D9.jpg",
+          "publishedAt": "2021-11-13T17:59:40Z",
+          "content": "Los Angeles Rams wide receiver Robert Woods is out for the remainder of the season after suffering a torn ACL in practice Friday, sources told ESPN's Adam Schefter and Dianna Russini.\r\nWoods went dow… [+2015 chars]"
+      },
+      {
+          "source": {
+              "id": "cbs-news",
+              "name": "CBS News"
+          },
+          "author": null,
+          "title": "Kaiser health care worker strike averted as tentative deal is reached, company says - CBS News",
+          "description": "Kaiser Permanente and the Alliance of Health Care Unions said they reached a tentative agreement.",
+          "url": "https://www.cbsnews.com/news/kaiser-permanente-union-nurses-health-care-workers-deal-reached-strike-averted/",
+          "urlToImage": "https://cbsnews2.cbsistatic.com/hub/i/r/2021/11/13/f00caba4-a6bf-448e-bbc0-dd4c0a3aa97a/thumbnail/1200x630/892129b93aed3841fec1bc754595e6c6/gettyimages-929115850.jpg",
+          "publishedAt": "2021-11-13T17:56:00Z",
+          "content": "Kaiser Permanente and the Alliance of Health Care Unions reached a tentative agreement on Saturday after more than 30,000 Kaiser Permanente employees threatened to strike on Monday due to a labor dis… [+2071 chars]"
+      },
+      {
+          "source": {
+              "id": "cnn",
+              "name": "CNN"
+          },
+          "author": "Chloe Melas, CNN",
+          "title": "Taylor Swift releases short film that fans think is about her ex-boyfriend Jake Gyllenhaal - CNN",
+          "description": "Taylor Swift officially broke the internet Friday.",
+          "url": "https://www.cnn.com/2021/11/13/entertainment/taylor-swift-jake-gyllenhaal-all-too-well-film/index.html",
+          "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/211113073553-taylor-swift-all-too-well-2021-super-tease.jpg",
+          "publishedAt": "2021-11-13T17:54:00Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Yahoo Entertainment"
+          },
+          "author": "Francesca Gariano",
+          "title": "Chris Daughtry's band postpones shows after daughter, 25, unexpectedly dies - Yahoo News",
+          "description": "Daughtry and his band released a statement revealing the heartbreaking news Friday night.",
+          "url": "https://news.yahoo.com/chris-daughtrys-band-postpones-shows-155220579.html",
+          "urlToImage": "https://s.yimg.com/ny/api/res/1.2/1hr3aGUXCGlfx8Oa.Teg7Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://s.yimg.com/uu/api/res/1.2/JeHjtK.C2zAA6TTgAaOPDg--~B/aD0xMjAwO3c9MjQwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/nbc_today_217/c11d5d38645c96652dd23845daf43ced",
+          "publishedAt": "2021-11-13T17:14:00Z",
+          "content": "The band Daughtry has postponed a week of upcoming shows after frontman Chris Daughtry's daughter, Hannah, died unexpectedly.\r\nLate on Friday, Nov. 12, Deanna Daughtry, the wife of the former America… [+2825 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Eurogamer.net"
+          },
+          "author": "Thomas Morgan",
+          "title": "Call of Duty: Vanguard - a tech marvel marred by bugs and stuttering issues - Eurogamer.net",
+          "description": null,
+          "url": "https://www.eurogamer.net/articles/digitalfoundry-2021-call-of-duty-vanguards-campaign-a-tech-spectacle-with-blemishes-on-ps5-and-xbox-series-consoles",
+          "urlToImage": "https://d2skuhm0vrry40.cloudfront.net/2021/articles/2021-11-13-14-39/digitalfoundry-2021-call-of-duty-vanguards-campaign-a-tech-spectacle-with-blemishes-on-ps5-and-xbox-series-consoles-1636814389773.jpg/EG11/resize/1200x-1/digitalfoundry-2021-call-of-duty-vanguards-campaign-a-tech-spectacle-with-blemishes-on-ps5-and-xbox-series-consoles-1636814389773.jpg",
+          "publishedAt": "2021-11-13T17:10:15Z",
+          "content": "The release of Call of Duty: Vanguard is a contentious one - but on a technological level, it's a return for the brilliant Modern Warware 2019 engine (known internally as IW8), enhanced and expanded … [+5813 chars]"
+      },
+      {
+          "source": {
+              "id": "fox-news",
+              "name": "Fox News"
+          },
+          "author": "Julia Musto",
+          "title": "CDC warns progress against measles threatened amid COVID-19 pandemic - Fox News",
+          "description": "The U.S. Centers for Disease Control and Prevention (CDC) warned last week that the impact of the COVID-19 pandemic had threatened global progress against the measles virus.",
+          "url": "https://www.foxnews.com/health/cdc-warns-progress-against-measles-threatened-covid-pandemic",
+          "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2021/11/measles.jpg",
+          "publishedAt": "2021-11-13T16:55:24Z",
+          "content": "The U.S. Centers for Disease Control and Prevention (CDC) warned last week that the impact of the COVID-19 pandemic had threatened global progress against the measles virus. \r\nWhile reported cases of… [+3334 chars]"
+      },
+      {
+          "source": {
+              "id": "fox-news",
+              "name": "Fox News"
+          },
+          "author": "Adam Shaw",
+          "title": "Biden says Belarus-Poland border crisis is of ‘great concern’ as migrant situation worsens - Fox News",
+          "description": "President Biden on Friday said the situation on the border between Belarus and Poland is of \"great concern\" -- as a growing number of migrants is leading to increased tensions in the region, and accusations that Belarus and Moscow are manufacturing a crisis.",
+          "url": "https://www.foxnews.com/politics/biden-belarus-poland-border-crisis-great-concern-migrant-situation-worsens",
+          "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2021/11/AP21316506065575.jpg",
+          "publishedAt": "2021-11-13T16:52:15Z",
+          "content": "President Biden on Friday said the situation on the border between Belarus and Poland is of \"great concern\" -- as a growing number of migrants is leading to increased tensions in the region, and accu… [+3954 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Daily Mail"
+          },
+          "author": "Jacob Thorburn",
+          "title": "Britney Spears is protected from former manager Sam Lutfi due to restraining order issued in 2019 - Daily Mail",
+          "description": "Dominic Cummings' latest attack on Britain's political elite has seen him claim the Prime Minister uses a secret exit as he 'likes to escape' his own office at 10 Downing Street without being detected by staffers.",
+          "url": "https://www.dailymail.co.uk/news/article-10197981/Dominic-Cummings-claims-Boris-Johnson-uses-secret-Downing-Street-exit-leave-without-staff-knowing.html",
+          "urlToImage": "https://i.dailymail.co.uk/1s/2021/11/13/11/50433231-0-image-a-49_1636802480621.jpg",
+          "publishedAt": "2021-11-13T16:45:00Z",
+          "content": "Dominic Cummings has claimed the Prime Minister uses a secret Downing Street 'escape' so he is able to leave without his civil servants knowing.\r\nThe ex-aide made the assertion on Friday in an email … [+3600 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "NPR"
+          },
+          "author": null,
+          "title": "Man who went to space with William Shatner weeks ago dies in a plane crash - NPR",
+          "description": "Glen De Vries, co-founder of a tech company, took a 10-minute flight to the edge of space aboard Blue Origin's New Shepard spacecraft with Shatner and two others. De Vries died in a crash on Thursday.",
+          "url": "https://www.npr.org/2021/11/13/1055529117/william-shatner-space-passenger-plane-crash",
+          "urlToImage": "https://media.npr.org/assets/img/2021/11/13/ap21316741436206_wide-6a84281faf8fdb1f4b287bf388009b7cf72030a9.jpg?s=1400",
+          "publishedAt": "2021-11-13T16:29:01Z",
+          "content": "Glen de Vries was among four passengers on Blue Origin's New Shepard rocket on Oct. 13. De Vries, 49, and Thomas P. Fischer, 54, died in crash of a single-engine plane that went down Thursday in a wo… [+2190 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Page Six"
+          },
+          "author": "Jessica Bennett",
+          "title": "Pretty-in-pink Paris Hilton hosts post-wedding carnival, DJ'd by Diplo - Page Six",
+          "description": "Hilton celebrated her Thursday nuptials to tech pro Carter Reum with a celeb-filled carnival at Santa Monica Pier.",
+          "url": "https://pagesix.com/2021/11/13/paris-hilton-hosts-post-wedding-carnival-djd-by-diplo/",
+          "urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2021/11/paris-hilton-wedding-carnival-main.jpg?quality=90&strip=all&w=1200",
+          "publishedAt": "2021-11-13T16:17:00Z",
+          "content": "This weekend belongs to Paris Hilton, who celebrated her Thursday nuptials to tech pro Carter Reum with a celeb-filled carnival at Santa Monica Pier. \r\nThe blonde newlywed, 40, donned a Barbie-inspir… [+3743 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "New York Post"
+          },
+          "author": "Eileen AJ Connelly",
+          "title": "Controversial Alzheimer's drug accounts for half of Medicare B premium hike - New York Post ",
+          "description": "The standard outpatient premium for the senior healthcare program will leap by $21.60 a month, gobbling up a big chunk of the average $92 Social Security allowance announced last month.",
+          "url": "https://nypost.com/2021/11/13/alzheimers-drug-accounts-for-half-of-medicare-b-premium-hike/",
+          "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2021/11/biogen-02.jpg?quality=90&strip=all&w=1024",
+          "publishedAt": "2021-11-13T16:00:00Z",
+          "content": "A controversial new Alzheimer’s drug is driving one of the largest increases in Medicare “Part B” premiums.\r\nThe standard outpatient premium for the senior healthcare program will leap by $21.60 a mo… [+1738 chars]"
+      },
+      {
+          "source": {
+              "id": "politico",
+              "name": "Politico"
+          },
+          "author": null,
+          "title": "POLITICO Playbook: Bannon indicted, Britney freed - POLITICO - Politico",
+          "description": "And an appeals court extends a stay for the Biden administration's vaccine-or-test mandate.",
+          "url": "https://www.politico.com/newsletters/playbook/2021/11/13/bannon-indicted-britney-freed-495092",
+          "urlToImage": "https://static.politico.com/ae/d5/c670b11f4807b647045205b8f560/211113-bannon-ap-1160.jpg",
+          "publishedAt": "2021-11-13T15:28:57Z",
+          "content": "DOJ on Friday charged Steve Bannon with two counts of contempt of Congress over his refusal to testify and provide documents to the House committee investigating the Jan. 6 Capitol attack. | J. Scott… [+17277 chars]"
+      },
+      {
+          "source": {
+              "id": "cnn",
+              "name": "CNN"
+          },
+          "author": "Allison Morrow, CNN Business",
+          "title": "Inflation, explained: Why prices keep going up and who's to blame - CNN",
+          "description": "Confused about inflation? You're not alone.",
+          "url": "https://www.cnn.com/2021/11/13/economy/what-is-inflation-explainer/index.html",
+          "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/211112132834-food-prices-inflation-111121-file-super-tease.jpg",
+          "publishedAt": "2021-11-13T15:24:00Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Spaceflight Now"
+          },
+          "author": null,
+          "title": "SpaceX launch starts deployment of new Starlink orbital shell – Spaceflight Now - Spaceflight Now",
+          "description": null,
+          "url": "https://spaceflightnow.com/2021/11/13/spacex-launch-starts-deployment-of-new-starlink-orbital-shell/",
+          "urlToImage": null,
+          "publishedAt": "2021-11-13T15:02:41Z",
+          "content": "A Falcon 9 rocket climbs above a fog layer at Cape Canaveral Space Force Station with 53 Starlink internet satellites. Credit: SpaceX\r\nSpaceX shot 53 Starlink internet satellites into orbit on top of… [+9043 chars]"
+      },
+      {
+          "source": {
+              "id": "cnn",
+              "name": "CNN"
+          },
+          "author": "Sara Ashley O'Brien, CNN Business",
+          "title": "What we learned this week in the trial of Elizabeth Holmes - CNN",
+          "description": "The biggest news this week in the criminal trial of Elizabeth Holmes is that the government expects to rest its case against the former CEO and founder of failed blood testing company Theranos in a matter of days.",
+          "url": "https://www.cnn.com/2021/11/13/tech/elizabeth-holmes-trial-recap/index.html",
+          "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/211111162603-01-elizabeth-holmes-theranos-fraud-trial-1102-restricted-super-tease.jpg",
+          "publishedAt": "2021-11-13T14:57:00Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": "ars-technica",
+              "name": "Ars Technica"
+          },
+          "author": "Ars Staff",
+          "title": "The weekend’s best deals: Disney+, Garmin watches, Xbox Game Pass, and more - Ars Technica",
+          "description": "Dealmaster also has good board games, Google Nest devices, and gaming chairs.",
+          "url": "https://arstechnica.com/staff/2021/11/best-early-black-friday-deals-this-weekend-disney-plus-garmin-xbox-game-pass-more-tech/",
+          "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2021/11/dealmaster111321-760x380.jpg",
+          "publishedAt": "2021-11-13T14:15:09Z",
+          "content": "4 with 3 posters participating\r\nAnother weekend, another Dealmaster. This weekend's roundup of the best tech deals we can find from around the web includes discounts from a sweeping early Black Frida… [+5726 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "OregonLive"
+          },
+          "author": null,
+          "title": "CDC takes stock, backs away from COVID-19 ‘herd immunity’ goal - OregonLive",
+          "description": "Recent evidence has also made clear that the immunity provided by vaccines can wane in a matter of months.The result is that even if vaccination were universal, the coronavirus would probably continue to spread.",
+          "url": "https://www.oregonlive.com/coronavirus/2021/11/cdc-takes-stock-backs-away-from-covid-19-herd-immunity-goal.html",
+          "urlToImage": "https://www.oregonlive.com/resizer/h0Bp1kV_E19BpXvvce-MPwgcYFU=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/L4B6QCMPNZBXNJJZ5QOAVUXRYM.jpg",
+          "publishedAt": "2021-11-13T14:03:00Z",
+          "content": "Since the earliest days of the pandemic, there has been one collective goal for bringing it to an end: achieving herd immunity. Thats when so many people are immune to a virus that it runs out of pot… [+5928 chars]"
+      },
+      {
+          "source": {
+              "id": "reuters",
+              "name": "Reuters"
+          },
+          "author": null,
+          "title": "Polish police find body of Syrian man near Belarus border - Reuters",
+          "description": "The body of a young Syrian man has been found in Poland near the border with Belarus, Polish police said on Saturday, amid mounting international tension over a migrant crisis the European Union says has been orchestrated by Minsk.",
+          "url": "https://www.reuters.com/world/europe/polish-police-find-body-syrian-man-near-belarus-border-2021-11-13/",
+          "urlToImage": "https://www.reuters.com/resizer/11ad0UxRDaBTlOE84P2UsOMRUes=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/SXICAFMGURLMZF6TQWFEQKT4AA.jpg",
+          "publishedAt": "2021-11-13T13:58:00Z",
+          "content": "Trucks from 16th Pomeranian Mechanised Division are seen behind a barbed wire at the temporary camp during migrant crisis on Belarusian - Polish border near Siemianowka, Poland, November 12, 2021. RE… [+2803 chars]"
+      },
+      {
+          "source": {
+              "id": "abc-news",
+              "name": "ABC News"
+          },
+          "author": "RUSS BYNUM Associated Press",
+          "title": "Arbery trial: Grim photos, police testimony dominate Week 1 - ABC News",
+          "description": "",
+          "url": "https://abcnews.go.com/US/wireStory/arbery-trial-grim-photos-police-testimony-dominate-week-81148447",
+          "urlToImage": "https://s.abcnews.com/images/Politics/arbery-rt-er-211110_1636587145415_hpMain_16x9_992.jpg",
+          "publishedAt": "2021-11-13T13:24:45Z",
+          "content": "BRUNSWICK, Ga. -- Jurors in the trial of three white men charged in Ahmaud Arberys killing saw graphic photos of the shotgun wounds that killed him.\r\nThey heard a defendants description of having the… [+5225 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Saturday Down South"
+          },
+          "author": "SDS Staff",
+          "title": "Desmond Howard puts 1 Playoff contender on upset watch Saturday - Saturday Down South",
+          "description": "Desmond Howard puts one Playoff team on upset watch Saturday.",
+          "url": "https://www.saturdaydownsouth.com/sports/desmond-howard-puts-1-playoff-contender-on-upset-watch-saturday/",
+          "urlToImage": "https://www.saturdaydownsouth.com/wp-content/uploads/2017/05/USATSI_9099137-1200x628.jpg",
+          "publishedAt": "2021-11-13T12:57:41Z",
+          "content": "Desmond Howard sent a warning to 1 College Football Playoff contender ahead of Saturday.\r\nDespite the No. 8 ranking, Oklahoma is firmly in the Playoff race due to its undefeated record, and Howard pu… [+860 chars]"
+      }
+  ]
+}
