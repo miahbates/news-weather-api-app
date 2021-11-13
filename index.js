@@ -102,6 +102,37 @@ form.addEventListener('submit', (e) => {
     })
 })
 
-let url2 = `https://api.openweathermap.org/data/2.5/forecast?q=london&appid=${weatherKey}`
+let url2 = `https://api.openweathermap.org/data/2.5/forecast?q=${weatherInput.value}&units=metric&appid=${weatherKey}`
 fetch(url2)
-  .then((response) => console.log(response.json()))
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(response.status)
+    }
+    return response.json()
+  })
+  .then((array) => {
+    //console.log(data)
+    let next5Days = document.createElement('section')
+    array.list.forEach((data, index) => {
+      if (index % 8 === 0) {
+        next5Days.innerHTML = `
+          <h2>${data.weather[0].description}</h2>
+          <p>Feels like ${data.main.feels_like}&deg;C</p>
+          <p>High:${data.main.temp_max}&deg;C</p>
+          <p>Low:${data.main.temp_min}&deg;C</p>
+          <p>Humdity:${data.main.humidity}%</p>
+          <p>Wind:${data.wind.speed}mph</p>`
+        weatherOutput.append(next5Days)
+      }
+
+    })
+    //let icon = data.list[0].weather[0].icon
+    next5Days.innerHTML = `
+    
+    <h2>${data.weather[0].description}</h2>
+    <p>Feels like ${data.main.feels_like}&deg;C</p>
+    <p>High:${data.main.temp_max}&deg;C</p>
+    <p>Low:${data.main.temp_min}&deg;C</p>
+    <p>Humdity:${data.main.humidity}%</p>
+    <p>Wind:${data.wind.speed}mph</p>`
+  })
