@@ -51,17 +51,29 @@ buttonCountry.forEach((country) => {
           const sectionCountry = document.getElementById(`${selectedButton}`);
           // add headline name to the section with allocated us or uk button clicked
           sectionCountry.appendChild(headlineName);
+          let headlineImg = document.createElement("img");
+          headlineImg.classList.add("article-img");
+          // create img elemet each time the loop runs and set src attribute to urlToImage
+          headlineImg.setAttribute("src", article.urlToImage);
+          // append to relevant section 
+          sectionCountry.appendChild(headlineImg);
+          let description = document.createElement("p");
+          description.classList.add("article-description")
+          description.innerHTML = article.description;
+          sectionCountry.appendChild(description);
+    
+        
+          let link = document.createElement("p");
+          link.classList.add("article-url");
+          link.innerHTML = `<a href="article.url">Click here to access full article</a>`;
+          sectionCountry.appendChild(link);
+
         } 
       })
       .catch((error) => console.log(error, "nay"))
   })
 })
 
- // add headline image to retropective subheading
-          // create img elemet each time the loop runs and set src attribute to urlToImage 
-          // let headlineImg = document.createElement("img").setAttribute("src", article.urlToImage);
-          // sectionCountry.appendChild(headlineImg);
-          // append to relevant section 
 
 const weatherKey = '2f3d3d3d32f17bca72f64fb285f2214a';
 const form = document.querySelector('form')
