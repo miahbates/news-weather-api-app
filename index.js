@@ -23,12 +23,23 @@ const buttonCountry = document.querySelectorAll(".button-country");
 let selectedButton = "";
 buttonCountry.forEach((country) => {
   country.addEventListener("click", (event) => {
-    selectedButton = country.dataset.tabTarget;
+    loadArticles(country.dataset.country)
+  })
+})
 
-    let encoded = encodeURIComponent(`https://newsapi.org/v2/top-headlines?country=${selectedButton}&pageSize=6&apiKey=c08a1eeb4cd64f16814aa16e610ace2b`)
+const sectionCountry = document.getElementById('news');
+sectionCountry.innerHTML = ''
+sectionCountry.dataset.active = true;
+loadArticles('gb');
+
+function loadArticles(selectedButton) {
+  
+  const sectionCountry = document.getElementById('news');
+  sectionCountry.innerHTML = ''
+
+  let encoded = encodeURIComponent(`https://newsapi.org/v2/top-headlines?country=${selectedButton}&pageSize=6&apiKey=c08a1eeb4cd64f16814aa16e610ace2b`)
     // console.log(selectedButton);
     fetch(`https://cors-proxy.oliverjam.workers.dev?url=${encoded}`)
-    // fetch(`api/${selectedButton}.json`)
       .then((response) => {
         if (response.ok !== true) {
           throw new Error(response.status)
@@ -37,7 +48,12 @@ buttonCountry.forEach((country) => {
       })
       .then(data => {
         console.log(data, 'yaya')
-        document.getElementById(`header${selectedButton}`).innerHTML = `Top Stories for the ${selectedButton.toUpperCase()}`;
+
+        // use template literal to get h3 associated with id or either uk or us depending on button clicked.
+        
+        let header = document.createElement("h2");
+        header.innerHTML = `Top Stories for the ${selectedButton.toUpperCase()}`;
+        sectionCountry.appendChild(header);
 
           // Loop over the articles
           for (let i = 0; i < data.articles.length; i++) {
@@ -47,32 +63,32 @@ buttonCountry.forEach((country) => {
           let headlineName = document.createElement("h3");
           // access dom node, and set text to the variable of the title
           headlineName.innerHTML = article.title;
-          // use template literal to get h3 associated with id or either uk or us depending on button clicked.
-          const sectionCountry = document.getElementById(`${selectedButton}`);
           // add headline name to the section with allocated us or uk button clicked
           sectionCountry.appendChild(headlineName);
-          let headlineImg = document.createElement("img");
-          headlineImg.classList.add("article-img");
-          // create img elemet each time the loop runs and set src attribute to urlToImage
-          headlineImg.setAttribute("src", article.urlToImage);
-          // append to relevant section 
-          sectionCountry.appendChild(headlineImg);
+          if (article.urlToImage) {
+            let headlineImg = document.createElement("img");
+            headlineImg.classList.add("article-img");
+            // create img elemet each time the loop runs and set src attribute to urlToImage
+            headlineImg.setAttribute("src", article.urlToImage);
+            // append to relevant section 
+            sectionCountry.appendChild(headlineImg);
+          }
           let description = document.createElement("p");
           description.classList.add("article-description")
           description.innerHTML = article.description;
           sectionCountry.appendChild(description);
-    
-        
-          let link = document.createElement("p");
+
+          let link = document.createElement("a");
           link.classList.add("article-url");
-          link.innerHTML = `<a href="article.url">Click here to access full article</a>`;
+          link.setAttribute("href", article.url);
+          link.setAttribute("target", "_blank");
+          link.innerHTML= `Click here to access full article`;
           sectionCountry.appendChild(link);
 
         } 
       })
       .catch((error) => console.log(error, "nay"))
-  })
-})
+}
 
 
 const weatherKey = '2f3d3d3d32f17bca72f64fb285f2214a';
@@ -111,3 +127,4 @@ form.addEventListener('submit', (e) => {
       }
     })
   })
+
