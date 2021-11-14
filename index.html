@@ -22,20 +22,15 @@
 <header>
   <h1>FAC News</h1>
   <nav>
-    <button data-tab-target="gb" class="button-country">GB</button>
-    <button data-tab-target="us" class="button-country">US</button>
+    <button data-country="gb" data-tab-target="news" class="button-country" data-active>GB</button>
+    <button data-country="us" data-tab-target="news" class="button-country">US</button>
     <button data-tab-target="weather">Weather</button>
   </nav>
 </header>
 
 <!-- content of top stories dependent on tab selected -->
 <main>
-  <section id="gb" data-tab-content>
-    <h2 id="headergb"></h2> 
-  </section>
-
-  <section id="us" data-tab-content>
-    <h2 id="headerus"></h2>
+  <section id="news" data-tab-content>
   </section>
 
   <section id="weather" data-tab-content>
