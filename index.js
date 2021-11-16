@@ -37,7 +37,7 @@ function loadArticles(selectedButton) {
   const sectionCountry = document.getElementById('news');
   sectionCountry.innerHTML = ''
 
-  let encoded = encodeURIComponent(`https://newsapi.org/v2/top-headlines?country=${selectedButton}&pageSize=6&apiKey=c08a1eeb4cd64f16814aa16e610ace2b`)
+  let encoded = encodeURIComponent(`https://newsapi.org/v2/top-headlines?country=${selectedButton}&pageSize=9&apiKey=c08a1eeb4cd64f16814aa16e610ace2b`)
     // console.log(selectedButton);
     fetch(`https://cors-proxy.oliverjam.workers.dev?url=${encoded}`)
       .then((response) => {
@@ -55,37 +55,44 @@ function loadArticles(selectedButton) {
         header.innerHTML = `Top Stories for the ${selectedButton.toUpperCase()}`;
         sectionCountry.appendChild(header);
 
+        const articles = document.createElement('div');
+        articles.classList.add("articles-container")
+
           // Loop over the articles
           for (let i = 0; i < data.articles.length; i++) {
-          // saved looped article in a variable
-          const article = data.articles[i];
-          // create new h3 each time to add the headline into
-          let headlineName = document.createElement("h3");
-          // access dom node, and set text to the variable of the title
-          headlineName.innerHTML = article.title;
-          // add headline name to the section with allocated us or uk button clicked
-          sectionCountry.appendChild(headlineName);
-          if (article.urlToImage) {
-            let headlineImg = document.createElement("img");
-            headlineImg.classList.add("article-img");
-            // create img elemet each time the loop runs and set src attribute to urlToImage
-            headlineImg.setAttribute("src", article.urlToImage);
-            // append to relevant section 
-            sectionCountry.appendChild(headlineImg);
-          }
-          let description = document.createElement("p");
-          description.classList.add("article-description")
-          description.innerHTML = article.description;
-          sectionCountry.appendChild(description);
-
-          let link = document.createElement("a");
-          link.classList.add("article-url");
-          link.setAttribute("href", article.url);
-          link.setAttribute("target", "_blank");
-          link.innerHTML= `Click here to access full article`;
-          sectionCountry.appendChild(link);
-
-        } 
+            // saved looped article in a variable
+            const article = data.articles[i];
+            // create a wrapper for the content
+            const articleElement = document.createElement("article")
+            // create new h3 each time to add the headline into
+            let headlineName = document.createElement("h3");
+            // access dom node, and set text to the variable of the title
+            headlineName.innerHTML = article.title;
+            // add headline name to the section with allocated us or uk button clicked
+            articleElement.appendChild(headlineName);
+            if (article.urlToImage) {
+              let headlineImg = document.createElement("img");
+              headlineImg.classList.add("article-img");
+              // create img elemet each time the loop runs and set src attribute to urlToImage
+              headlineImg.setAttribute("src", article.urlToImage);
+              // append to relevant section 
+              articleElement.appendChild(headlineImg);
+            }
+            let description = document.createElement("p");
+            description.classList.add("article-description")
+            description.innerHTML = article.description;
+            articleElement.appendChild(description);
+            
+            let link = document.createElement("a");
+            link.classList.add("article-url");
+            link.setAttribute("href", article.url);
+            link.setAttribute("target", "_blank");
+            link.innerHTML= `Click here to access full article`;
+            articleElement.appendChild(link);
+            
+            articles.appendChild(articleElement);
+          } 
+          sectionCountry.appendChild(articles);
       })
       .catch((error) => console.log(error, "nay"))
 }
