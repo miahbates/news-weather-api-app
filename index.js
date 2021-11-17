@@ -7,6 +7,7 @@ for (let i = 0; i < tabs.length; i++) {
     for (let j = 0; j < tabContents.length; j++) {
       tabContents[j].dataset.active = false;
     }
+    // select one you want to show
     const target = document.querySelector('#' + tabs[i].dataset.tabTarget);
     target.dataset.active = true;
   })
@@ -21,20 +22,20 @@ const buttonCountry = document.querySelectorAll(".button-country");
 
 // add event listerner to button`
 let selectedButton = "";
-buttonCountry.forEach((country) => {
-  country.addEventListener("click", (event) => {
-    loadArticles(country.dataset.country)
+buttonCountry.forEach((button) => {
+  button.addEventListener("click", (event) => {
+    loadArticles(button.dataset.country)
   })
 })
 
-const sectionCountry = document.getElementById('news');
-sectionCountry.innerHTML = ''
-sectionCountry.dataset.active = true;
+// display gb auto 
 loadArticles('gb');
 
 function loadArticles(selectedButton) {
   
+  // get news section
   const sectionCountry = document.getElementById('news');
+  // empty the news section to stop duplicate
   sectionCountry.innerHTML = ''
 
   let encoded = encodeURIComponent(`https://newsapi.org/v2/top-headlines?country=${selectedButton}&pageSize=9&apiKey=c08a1eeb4cd64f16814aa16e610ace2b`)
@@ -55,6 +56,8 @@ function loadArticles(selectedButton) {
         header.innerHTML = `Top Stories for the ${selectedButton.toUpperCase()}`;
         sectionCountry.appendChild(header);
 
+        
+        // create div around articles to flex them without affecting the header
         const articles = document.createElement('div');
         articles.classList.add("articles-container")
 
@@ -62,19 +65,20 @@ function loadArticles(selectedButton) {
           for (let i = 0; i < data.articles.length; i++) {
             // saved looped article in a variable
             const article = data.articles[i];
-            // create a wrapper for the content
+            // create a article html element for the content
             const articleElement = document.createElement("article")
             // create new h3 each time to add the headline into
             let headlineName = document.createElement("h3");
             // access dom node, and set text to the variable of the title
             headlineName.innerHTML = article.title;
-            // add headline name to the section with allocated us or uk button clicked
+            // add headline name to the article html element
             articleElement.appendChild(headlineName);
             if (article.urlToImage) {
               let headlineImg = document.createElement("img");
               headlineImg.classList.add("article-img");
-              // create img elemet each time the loop runs and set src attribute to urlToImage
+              // create img element each time the loop runs and set src attribute to urlToImage
               headlineImg.setAttribute("src", article.urlToImage);
+              headlineImg.setAttribute("alt", article.title);
               // append to relevant section 
               articleElement.appendChild(headlineImg);
             }
