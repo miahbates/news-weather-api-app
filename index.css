@@ -58,7 +58,7 @@ main {
 
 button {
   background-color: var(--color-one);
-  color:var(--color-four);
+  color:var(--color-two);
   box-shadow:var(--box-shadow);
   border: none;
   padding: 5px;
@@ -169,6 +169,7 @@ h3 {
   font-size: 1.5rem;
 }
 
+
 .hidden{
   display:none !important;
 }
@@ -221,6 +222,8 @@ h3 {
 .bottomTemp{
   font-size:1.5rem ;
 }
+
+
 /* css for tablet and above */
 @media screen and (min-width: 768px) {
   h1 {

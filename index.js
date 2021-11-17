@@ -7,6 +7,7 @@ for (let i = 0; i < tabs.length; i++) {
     for (let j = 0; j < tabContents.length; j++) {
       tabContents[j].dataset.active = false;
     }
+    // select one you want to show
     const target = document.querySelector('#' + tabs[i].dataset.tabTarget);
     target.dataset.active = true;
   })
@@ -21,20 +22,20 @@ const buttonCountry = document.querySelectorAll(".button-country");
 
 // add event listerner to button`
 let selectedButton = "";
-buttonCountry.forEach((country) => {
-  country.addEventListener("click", (event) => {
-    loadArticles(country.dataset.country)
+buttonCountry.forEach((button) => {
+  button.addEventListener("click", (event) => {
+    loadArticles(button.dataset.country)
   })
 })
 
-const sectionCountry = document.getElementById('news');
-sectionCountry.innerHTML = ''
-sectionCountry.dataset.active = true;
+// display gb auto 
 loadArticles('gb');
 
 function loadArticles(selectedButton) {
 
+  // get news section
   const sectionCountry = document.getElementById('news');
+  // empty the news section to stop duplicate
   sectionCountry.innerHTML = ''
 
   let encoded = encodeURIComponent(`https://newsapi.org/v2/top-headlines?country=${selectedButton}&pageSize=9&apiKey=c08a1eeb4cd64f16814aa16e610ace2b`)
