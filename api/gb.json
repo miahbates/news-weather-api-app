@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+      {
+          "source": {
+              "id": "financial-times",
+              "name": "Financial Times"
+          },
+          "author": null,
+          "title": "COP26 latest: India and China push back on fossil fuels - Financial Times",
+          "description": "News, analysis and comment from the Financial Times, the worldʼs leading global business publication",
+          "url": "https://www.ft.com/content/651ceef3-c5bc-4648-9d61-2212608c8910",
+          "urlToImage": null,
+          "publishedAt": "2021-11-13T18:35:42Z",
+          "content": "Keep abreast of significant corporate, financial and political developments around the world.\r\nStay informed and spot emerging risks and opportunities with independent global reporting, expert\r\ncomme… [+32 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Sky Sports"
+          },
+          "author": null,
+          "title": "Live Commentary - England vs Australia | 13 Nov 2021 - Sky Sports",
+          "description": "Follow all of the action from Twickenham as England and Australia renew their rivalry in the Autumn Nations Series (kick-off 5.30pm)",
+          "url": "https://www.skysports.com/rugby-union/england-vs-australia/live/100328",
+          "urlToImage": "https://e0.365dm.com/21/11/1600x900/skysports-freddie-steward-england_5581904.jpg?20211113174902",
+          "publishedAt": "2021-11-13T18:22:30Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "The Times"
+          },
+          "author": "Roya Nikkhah",
+          "title": "'She's been found out': royal despair over Meghan's courtroom backtrack - The Times",
+          "description": "The dramatic twist in the Duchess of Sussex’s battle against a newspaper, forcing her to apologise for “misleading” a court, is just the tip of iceberg, accord",
+          "url": "https://www.thetimes.co.uk/article/shes-been-found-out-royal-despair-over-meghans-courtroom-backtrack-nvgkw973k",
+          "urlToImage": "https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F860f3912-4497-11ec-b414-b1f6389ab345.jpg?crop=3600%2C2025%2C0%2C187&resize=1200",
+          "publishedAt": "2021-11-13T18:00:00Z",
+          "content": "The dramatic twist in the Duchess of Sussexs battle against a newspaper, forcing her to apologise for misleading a court, is just the tip of iceberg, according to royal sources.\r\nMeghan made a U-turn… [+549 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Formula 1"
+          },
+          "author": "F1",
+          "title": "Hamilton disqualified from Brazil qualifying after DRS infringement - Formula 1 RSS UK",
+          "description": "Lewis Hamilton has been stripped of his P1 for the F1 Sprint after a technical infringement was found on his Mercedes W12 – meaning Max Verstappen will head the field for Saturday's 100km dash event in Brazil.",
+          "url": "https://www.formula1.com/en/latest/article.breaking-hamilton-disqualified-from-brazil-qualifying-after-drs-infringement.2YCYCpsnUQMcsUbN33fBB3.html",
+          "urlToImage": "https://www.formula1.com/content/dam/fom-website/manual/Misc/2021manual/2021BrazilianGrandPrixmanuals/Friday/M288877.jpg",
+          "publishedAt": "2021-11-13T17:58:46Z",
+          "content": "Lewis Hamilton has been stripped of his P1 for the F1 Sprint after a technical infringement was found on his Mercedes W12 meaning Max Verstappen will head the field for Saturday's 100km dash event in… [+3493 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "The Guardian"
+          },
+          "author": "Andrew Roth",
+          "title": "Far from the border forest, Minsk and Moscow dictate refugees’ fate - The Guardian",
+          "description": "President Lukashenko is using a humanitarian crisis to further his own ends – but his success depends on which path Putin follows",
+          "url": "https://amp.theguardian.com/world/2021/nov/13/far-from-the-border-forest-minsk-and-moscow-dictate-refugees-fate",
+          "urlToImage": "https://i.guim.co.uk/img/media/37cc44162b581e379dfc4a58b79d3baa3993c540/0_150_2000_1200/master/2000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tZGVmYXVsdC5wbmc&enable=upscale&s=9cdb3cf003a5daa2be7338fb6c3a77ba",
+          "publishedAt": "2021-11-13T17:52:00Z",
+          "content": "Gunshots echo through the forest as Belarusian soldiers fire warning shots to drive back terrified asylum-seekers from Iraq and Syria seeking aid. Along the border, Polish and Belarusian troops eye e… [+5926 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "The Guardian"
+          },
+          "author": "Tom Ambrose",
+          "title": "Arrests as XR activists block lord mayor’s show in London - The Guardian",
+          "description": "Demonstrators say Cop26 talks failed and call on City banks to stop funding fossil fuel projects",
+          "url": "https://amp.theguardian.com/environment/2021/nov/13/arrests-as-xr-activists-block-lord-mayors-show-in-london",
+          "urlToImage": "https://i.guim.co.uk/img/media/35a394786074edd1b578f8f9388ed350aa555a2e/0_145_4032_2419/master/4032.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=331d53abf5e9ef1c16dac162e7375513",
+          "publishedAt": "2021-11-13T17:41:00Z",
+          "content": "Police arrested Extinction Rebellion protesters who blocked the lord mayors show in central London on Saturday.\r\nFootage shared on social media showed officers dragging demonstrators out of the road … [+2065 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "The Guardian"
+          },
+          "author": "Tim Lewis",
+          "title": "Science YouTuber Philipp Dettmer: ‘Getting cancer was super-interesting’ - The Guardian",
+          "description": "The online star on demystifying everything from black holes to the immune system, plus the trouble with anti-vaxxers",
+          "url": "https://amp.theguardian.com/science/2021/nov/13/science-youtuber-philipp-dettmer-getting-cancer-was-super-interesting",
+          "urlToImage": null,
+          "publishedAt": "2021-11-13T17:00:00Z",
+          "content": "ImmunologyThe online star with 15 million subscribers on demystifying everything from black holes to the immune system, the trouble with anti-vaxxers, and what his cancer taught him\r\nSat 13 Nov 2021 … [+7317 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Daily Mail"
+          },
+          "author": "Jacob Thorburn",
+          "title": "Britney Spears is protected from former manager Sam Lutfi due to restraining order issued in 2019 - Daily Mail",
+          "description": "Dominic Cummings' latest attack on Britain's political elite has seen him claim the Prime Minister uses a secret exit as he 'likes to escape' his own office at 10 Downing Street without being detected by staffers.",
+          "url": "https://www.dailymail.co.uk/news/article-10197981/Dominic-Cummings-claims-Boris-Johnson-uses-secret-Downing-Street-exit-leave-without-staff-knowing.html",
+          "urlToImage": "https://i.dailymail.co.uk/1s/2021/11/13/11/50433231-0-image-a-49_1636802480621.jpg",
+          "publishedAt": "2021-11-13T16:45:00Z",
+          "content": "Dominic Cummings has claimed the Prime Minister uses a secret Downing Street 'escape' so he is able to leave without his civil servants knowing.\r\nThe ex-aide made the assertion on Friday in an email … [+3600 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Metro.co.uk"
+          },
+          "author": "Jordan King",
+          "title": "Man, 20, dies as 'drink driver' collides with parked car and wall - Metro.co.uk",
+          "description": "The victim was sitting in the passenger seat when the collision happened and he died in hospital later.",
+          "url": "https://metro.co.uk/2021/11/13/man-20-dies-as-drink-driver-collides-with-parked-car-and-wall-15596547/",
+          "urlToImage": "https://metro.co.uk/wp-content/uploads/2021/11/PRC_210046496_1636821553.jpg?quality=90&strip=all&w=1200&h=630&crop=1",
+          "publishedAt": "2021-11-13T16:38:00Z",
+          "content": "The driver, a 19-year-old teenage girl, lost control of the car as she turned around a bend (Picture: Ben Lack)\r\nA man was killed in a road accident while sitting in a car with a driver who was alleg… [+1271 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Birmingham Live"
+          },
+          "author": "Nick Horner",
+          "title": "Trams suspended, car parks full and trains subject to late cancellation amid Birmingham traffic chaos - Birmingham Live",
+          "description": "Birmingham city centre is experiencing transport chaos this weekend with no trams, congested roads, full car parks and trains subject to cancellations",
+          "url": "https://www.birminghammail.co.uk/news/midlands-news/trams-suspended-car-parks-full-22159328",
+          "urlToImage": "https://i2-prod.birminghammail.co.uk/incoming/article22159560.ece/ALTERNATES/s1200/0_WhatsApp-Image-2021-11-13-at-162216.jpg",
+          "publishedAt": "2021-11-13T16:27:19Z",
+          "content": "Visitors to Birmingham city centre looking to enjoy the German market or do some early Christmas shopping this weekend have been warned to expect chaos. \r\nWith the citys popular German market now wel… [+4951 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "The Guardian"
+          },
+          "author": "Denis Campbell",
+          "title": "Millions to be offered Covid booster jabs earlier to protect NHS over winter - The Guardian",
+          "description": "Exclusive: boosters to be offered five months after second dose as part of major change to vaccination rollout programme",
+          "url": "https://amp.theguardian.com/politics/2021/nov/13/millions-of-people-across-uk-to-be-offered-covid-booster-jabs-earlier",
+          "urlToImage": null,
+          "publishedAt": "2021-11-13T16:16:00Z",
+          "content": "Health policyExclusive: boosters to be offered five months after second dose as part of major change to vaccination rollout programme\r\nSat 13 Nov 2021 16.16 GMT\r\nThe government is to allow people to … [+5495 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "The Guardian"
+          },
+          "author": "Michael Aylwin",
+          "title": "Mapimpi steals Hogg’s limelight as South Africa crush Scotland - The Guardian",
+          "description": "Two tries from Makazole Mapimpi overshadowed Stuart Hogg’s record equalling try tally as South Africa beat Scotland 30-15 at Murrayfield",
+          "url": "https://amp.theguardian.com/sport/2021/nov/13/scotland-south-africa-autumn-internationl-match-report",
+          "urlToImage": null,
+          "publishedAt": "2021-11-13T15:50:00Z",
+          "content": "Autumn internationals<ul><li>Scotland 15-30 South Africa</li><li>Visitors cruise to victory with high class set pieces</li></ul>\r\nSat 13 Nov 2021 15.28 GMT\r\nStill some way to go then. A brutal second… [+5339 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "The Guardian"
+          },
+          "author": "Guardian staff reporter",
+          "title": "Fox News edits video of Biden to make it seem he was being racially insensitive - The Guardian",
+          "description": "Fox &amp; Friends host played edited clip before claiming the US president was ‘facing backlash’ for his remarks",
+          "url": "https://amp.theguardian.com/media/2021/nov/13/fox-news-edits-biden-video-negro-leagues-satchel-paige",
+          "urlToImage": null,
+          "publishedAt": "2021-11-13T15:07:00Z",
+          "content": "Fox NewsFox &amp; Friends host played edited clip before claiming the US president was facing backlash for his remarks\r\nAssociated Press in New York\r\nSat 13 Nov 2021 10.07 EST\r\nFox News edited video … [+3405 chars]"
+      },
+      {
+          "source": {
+              "id": "bbc-news",
+              "name": "BBC News"
+          },
+          "author": "https://www.facebook.com/bbcnews",
+          "title": "Covid-19: Three more deaths and 1,806 new coronavirus cases - BBC News",
+          "description": "The total number of coronavirus-linked deaths recorded by the Department of Health is 2,787.",
+          "url": "https://www.bbc.co.uk/news/uk-northern-ireland-59275559",
+          "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/11267/production/_117674207_indexpix-nc.png",
+          "publishedAt": "2021-11-13T14:21:26Z",
+          "content": "BBC News NI outlines the latest data on coronavirus and Covid-19 vaccinations across Northern Ireland and the Republic of Ireland.\r\nThree Covid-19-related deaths have been reported in Northern Irelan… [+2025 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Daily Mail"
+          },
+          "author": "Harriet Johnston",
+          "title": "Supermarket launches festive feel-good ad to the soundtrack of Queen's Don't Stop Me Now - Daily Mail",
+          "description": "The supermarket's new festive campaign celebrates the festive season being back in the UK after the disappointment of the 2020 holidays amid the Covid-19 pandemic.",
+          "url": "https://www.dailymail.co.uk/femail/article-10195675/Supermarket-launches-festive-feel-good-ad-soundtrack-Queens-Dont-Stop-Now.html",
+          "urlToImage": "https://i.dailymail.co.uk/1s/2021/11/13/12/50434647-0-image-a-54_1636806766267.jpg",
+          "publishedAt": "2021-11-13T14:14:37Z",
+          "content": "Tesco has become the latest supermarket to unveil its feel-good Christmas advert, which featured a soundtrack of Queen's Don't Stop Me Now.\r\nThe supermarket's new festive campaign celebrates the fest… [+4439 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Sky.com"
+          },
+          "author": "Sky",
+          "title": "Nazanin Zaghari Ratcliffe: Husband Richard ends three-week hunger strike as his daughter 'needs two parents' - Sky News",
+          "description": "",
+          "url": "https://news.sky.com/story/nazanin-zaghari-ratcliffe-husband-richard-ends-three-week-hunger-strike-as-his-daughter-needs-two-parents-12467700",
+          "urlToImage": "https://e3.365dm.com/21/11/1600x900/skynews-nazanin-richard-ratcliffe_5579926.jpg?20211111195027",
+          "publishedAt": "2021-11-13T13:43:57Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "WhatCulture"
+          },
+          "author": "Jack Pooley",
+          "title": "10 Ways TV Shows Blew Your Mind (Without You Even Realising) - WhatCulture",
+          "description": "Looking Glass' mask was 100% digital in every single shot.",
+          "url": "https://whatculture.com/tv/10-ways-tv-shows-blew-your-mind-without-you-even-realising",
+          "urlToImage": "https://cdn3.whatculture.com/images/2021/11/dd795ab32f2033f6-1200x675.jpg",
+          "publishedAt": "2021-11-13T12:39:02Z",
+          "content": "There's no denying the ridiculous amount of work that goes into even a totally mediocre TV show, as they're generally forced to work to much tighter time and financial deadlines than movies, where ev… [+1839 chars]"
+      },
+      {
+          "source": {
+              "id": "independent",
+              "name": "Independent"
+          },
+          "author": "Colin Drury",
+          "title": "Brentford: Murder arrest after man killed and 84-year-old woman injured in London stabbing - The Independent",
+          "description": "Victims attacked in street",
+          "url": "https://www.independent.co.uk/news/uk/crime/brentford-stabbing-latest-death-london-b1957085.html",
+          "urlToImage": "https://static.independent.co.uk/2021/11/13/11/Brentford.jpg?width=1200&auto=webp&quality=75",
+          "publishedAt": "2021-11-13T12:28:42Z",
+          "content": "A man has been arrested on suspicion of murder after another man was killed and an 84-year-old woman seriously injured in a stabbing in a west London street.\r\nThe suspect, in his 30s, was detained on… [+1386 chars]"
+      },
+      {
+          "source": {
+              "id": "independent",
+              "name": "Independent"
+          },
+          "author": "Adam Forrest",
+          "title": "Matt Hancock writing Covid book would be ‘cashing in on tragedy’, say bereaved families - The Independent",
+          "description": "Labour condemns ‘disgusting’ idea, after ex-minister confirms approach over book deal",
+          "url": "https://www.independent.co.uk/news/uk/politics/matt-hancock-book-deal-covid-b1957099.html",
+          "urlToImage": "https://static.independent.co.uk/2021/11/13/12/newFile.jpg?width=1200&auto=webp&quality=75",
+          "publishedAt": "2021-11-13T12:26:20Z",
+          "content": "Conservative MP Matt Hancock is considering an offer to write a book focusing on his time as health secretary during the Covid pandemic.\r\nCampaigners who lost loved ones to the virus condemned the id… [+3872 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Evening Standard"
+          },
+          "author": "Patrick Daly",
+          "title": "Christmas lockdown should be avoided as winter Covid wave unlikely, says expert - Evening Standard",
+          "description": "Professor Neil Ferguson’s comments come amid rising cases in Europe, with restrictions reimposed in some countries to control a new surge.",
+          "url": "https://www.standard.co.uk/news/uk/neil-ferguson-europe-boris-johnson-netherlands-scientific-advisory-group-for-emergencies-b966022.html",
+          "urlToImage": "https://static.standard.co.uk/2021/11/13/11/300a32a72c1aea5e525e94292fc89d45Y29udGVudHNlYXJjaGFwaSwxNjM2ODg4NjM4-2.63698155.jpg?width=1200&width=1200&auto=webp&quality=75",
+          "publishedAt": "2021-11-13T11:47:12Z",
+          "content": "The expert whose modelling helped instigate the first coronavirus lockdown said he does not think restrictions will be needed this Christmas.\r\nProfessor Neil Ferguson a member of the Scientific Advis… [+4368 chars]"
+      }
+  ]
+}
