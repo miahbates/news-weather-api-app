@@ -58,7 +58,7 @@ main {
 
 button {
   background-color: var(--color-one);
-  color:var(--color-four);
+  color:var(--color-two);
   box-shadow:var(--box-shadow);
   border: none;
   padding: 5px;
@@ -138,6 +138,7 @@ section * {
   0% {opacity:0}
   100% {opacity:1}
 }
+
 
 /* css for tablet and above */
 @media screen and (min-width: 768px) {
