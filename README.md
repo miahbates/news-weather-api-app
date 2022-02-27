@@ -8,13 +8,12 @@ This repo contains a website displaying information from news and weather APIs.
 
 *Check out the [live site here](https://fac-23.github.io/preA-http-week2-AdamMiah/)!*
 
-## Core Stories 
-As a user, I want to:
+## User Stories 👥
+### As a user, I want to:
 - [x] See an interesting mashup of different data
 - [x] Input information to change the displayed result
 - [x] View the app on all of my devices
-
-## Acceptance Criteria 
+### Acceptance Criteria 
 - [x] Query at least two APIs using fetch
 - [x] Dynamic content generated with JS
 - [x] A clearly defined user journey, documented in your readme
