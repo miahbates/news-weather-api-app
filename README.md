@@ -8,6 +8,8 @@ This repo contains a website displaying information from news and weather APIs.
 
 *Check out the [live site here](https://fac-23.github.io/preA-http-week2-AdamMiah/)!*
 
+<img width="1422" alt="Screenshot 2022-06-25 at 21 11 37" src="https://user-images.githubusercontent.com/78933903/175789190-111b5005-7f03-4782-af6b-cd58cc12cf4e.png">
+
 ## User Stories 👥
 ### As a user, I want to:
 - [x] See an interesting mashup of different data
